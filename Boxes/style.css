@@ -1,0 +1,22 @@
+.box {
+    background: blue;
+    height: 50px;
+    width: 50px;
+}
+
+.container,.container2 {
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+    border: 1px solid blue;
+    padding: 20px;
+    margin: 15px;
+}
+
+.container2 .box {
+    background: purple;
+}
+
+.container2 {
+    background: salmon;
+}
